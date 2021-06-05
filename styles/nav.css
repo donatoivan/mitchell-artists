@@ -1,0 +1,31 @@
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list-item {
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-text {
+  color: white;
+}
+
+#nav-separator-list-container {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+#nav-separator {
+  font-size: 36px;
+  font-weight: 200;
+  margin: 0;
+}
