@@ -6,42 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mitchell Artists</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
   </head>
   <body>
-    <div class="main-container">
+    <div id="main-container">
       <div class="nav">
-        <ul class="nav-list">
-          <li id="about-link" class="nav-list-item">
-            <a href="" class="nav-link">
-              <p class="nav-text">about</p>
-            </a>
-          </li>
-          <li id="nav-separator-list-container">
-            <p id="nav-separator">I</p>
-          </li>
-          <li class="nav-list-item">
-            <a href="" class="nav-link">
-              <p class="nav-text">contact</p>
-            </a>
-          </li>
-        </ul>
+        <div id="left-corner"></div>
+        <div id="hamburger-icon" class="icon"></div>
+        <div id="x-icon" class="icon"></div>
       </div>
-      <div class="content-container">
-        <div class="home-logo-container">
-          <img
-            src="./assets/mitchell-artists-logo-white.png"
-            alt="Mitchell Artists"
-          />
+      <div id="content-container">
+        <div id="home-logo-container">
+          <p class="mitchell-title">MITCHELL</p>
+          <p class="artists-title">ARTISTS</p>
+          <!-- <img src="./assets/MitchellArtists.png" alt="Mitchell Artists" /> -->
         </div>
-        <div class="home-tagline-container">
-          <p class="home-tagline">boutique artists agency</p>
-        </div>
+      </div>
+      <div class="footer">
+        <div id="right-corner"></div>
       </div>
     </div>
+    <script src="js/location.js"></script>
+    <script src="js/elementsObj.js"></script>
+    <script src="js/event-listeners.js"></script>
   </body>
 </html>
