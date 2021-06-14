@@ -6,11 +6,19 @@
 
 .nav-link {
   text-decoration: none;
+  color: #072256;
+  font-size: 24px;
 }
 
 #hamburger-icon {
   background-size: cover;
   background-image: url("../assets/Hamburger-white-round@2x.png");
+}
+
+#hamburger-icon-blue {
+  background-size: cover;
+  display: none;
+  background-image: url("../assets/Hamburger-navy-round@2x.png");
 }
 
 #x-icon {
