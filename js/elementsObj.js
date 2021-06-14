@@ -7,5 +7,6 @@ function elementObj() {
     leftCorner: document.getElementById("left-corner"),
     homeLogoContainer: document.getElementById("home-logo-container"),
     contentContainer: document.getElementById("content-container"),
+    footer: document.getElementById("footer"),
   };
 }

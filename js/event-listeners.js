@@ -6,6 +6,8 @@ const {
   leftCorner,
   homeLogoContainer,
   contentContainer,
+  maskLeft,
+  footer,
 } = elementObj();
 
 hamburger.addEventListener("click", (e) => {
@@ -15,5 +17,15 @@ hamburger.addEventListener("click", (e) => {
   xIcon.style.display = "block";
   rightCorner.style.visibility = "visible";
   leftCorner.style.visibility = "visible";
-  contentContainer.style.backgroundColor = "red";
+  footer.style.visibility = "visible";
+});
+
+xIcon.addEventListener("click", (e) => {
+  mainContainer.style.backgroundColor = "#072256";
+  hamburger.style.display = "block";
+  homeLogoContainer.style.display = "block";
+  xIcon.style.display = "none";
+  rightCorner.style.visibility = "hidden";
+  leftCorner.style.visibility = "hidden";
+  footer.style.visibility = "hidden";
 });
