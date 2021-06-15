@@ -16,5 +16,7 @@ function elementObj() {
     mitchellTitleMenu: document.getElementById("mitchell-title-corner"),
     artistsTitleMenu: document.getElementById("artists-title-corner"),
     titleCorner: document.getElementById("title-corner"),
+    aboutContainer: document.getElementById("about-container"),
+    contactContainer: document.getElementById("contact-container"),
   };
 }

@@ -15,7 +15,11 @@ const {
   artistsTitleMenu,
   mitchellTitleMenu,
   titleCorner,
+  aboutContainer,
+  contactContainer,
 } = elementObj();
+
+window.page = "home";
 
 hamburger.addEventListener("click", (e) => {
   hamburger.style.display = "none";
@@ -28,22 +32,27 @@ hamburgerBlue.addEventListener("click", (e) => {
 });
 
 xIcon.addEventListener("click", (e) => {
+  window.page = "home";
   goHome(e);
 });
 
 homeLink.addEventListener("click", (e) => {
+  window.page = "home";
   goHome(e);
 });
 
 aboutLink.addEventListener("click", (e) => {
+  window.page = "about";
   displayLinkPage(e);
 });
 
 contactLink.addEventListener("click", (e) => {
+  window.page = "contact";
   displayLinkPage(e);
 });
 
 titleCorner.addEventListener("click", (e) => {
   hamburgerBlue.style.display = "none";
+  window.page = "home";
   goHome(e);
 });

@@ -2,6 +2,7 @@ function goHome(e) {
   e.preventDefault();
   mainContainer.style.backgroundColor = "#072256";
   contentContainer.style.justifyContent = "center";
+  contentContainer.style.alignItems = "center";
   hamburger.style.display = "block";
   homeLogoContainer.style.display = "block";
   xIcon.style.display = "none";
@@ -11,12 +12,15 @@ function goHome(e) {
   menuOptions.style.display = "none";
   mitchellTitleMenu.style.visibility = "hidden";
   artistsTitleMenu.style.visibility = "hidden";
+  aboutContainer.style.display = "none";
+  contactContainer.style.display = "none";
 }
 
 function displayLinkPage(e) {
   e.preventDefault();
   mainContainer.style.backgroundColor = "white";
   contentContainer.style.justifyContent = "flex-start";
+  contentContainer.style.alignItems = "normal";
   xIcon.style.display = "none";
   hamburgerBlue.style.display = "block";
   rightCorner.style.visibility = "visible";
@@ -25,6 +29,10 @@ function displayLinkPage(e) {
   menuOptions.style.display = "none";
   mitchellTitleMenu.style.visibility = "visible";
   artistsTitleMenu.style.visibility = "visible";
+
+  window.page === "about"
+    ? (aboutContainer.style.display = "flex")
+    : (contactContainer.style.display = "flex");
 }
 
 function displayLinks(e) {
@@ -39,4 +47,6 @@ function displayLinks(e) {
   menuOptions.style.display = "flex";
   mitchellTitleMenu.style.visibility = "hidden";
   artistsTitleMenu.style.visibility = "hidden";
+  aboutContainer.style.display = "none";
+  contactContainer.style.display = "none";
 }
