@@ -39,6 +39,10 @@
     height: 30px;
     width: 30px;
   }
+
+  .nav-link {
+    font-size: 42px;
+  }
 }
 
 @media (min-width: 1024px) {

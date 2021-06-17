@@ -11,3 +11,13 @@
     margin-top: 52px;
   }
 }
+
+@media screen and (min-width: 700px) {
+  #menu-options-container {
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 52px;
+  }
+}

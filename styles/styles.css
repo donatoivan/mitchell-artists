@@ -44,58 +44,94 @@ html {
   align-items: center;
 }
 
+#left-corner {
+  visibility: hidden;
+  position: relative;
+}
+
+.logo-title-corner {
+  padding: 16px 16px 0 20px;
+}
+
+#left-corner::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.logo-title-corner::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#footer {
+  visibility: hidden;
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+}
+
+#footer::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+#right-corner {
+  visibility: hidden;
+}
+
+#right-corner::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+#mitchell-title-corner {
+  visibility: hidden;
+  color: #072256;
+  font-weight: 700;
+}
+
+#artists-title-corner {
+  visibility: hidden;
+  color: #072256;
+  text-align: end;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 320px) {
+  .about-title {
+    font-size: 20px;
+  }
+
+  .mitchell-title {
+    font-size: 20px;
+  }
+
+  .artists-title {
+    font-size: 10px;
+  }
+
+  .about-body {
+    font-size: 12px;
+  }
+
+  .contact-body {
+    font-size: 16px !important;
+  }
+
+  #copyright-container {
+    left: 160px !important;
+  }
+}
+
 @media screen and (max-width: 700px) {
-  #home-logo-container {
-    padding-bottom: 132px;
-  }
-
-  #left-corner {
-    visibility: hidden;
-    position: relative;
-    width: 182px;
-    height: 80px;
-  }
-
-  #left-corner::after {
-    content: "";
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    height: 100%;
-    border-left: 2px solid #072256;
-  }
-
-  .logo-title-corner {
-    padding: 16px 16px 0 20px;
-  }
-
-  .logo-title-corner::after {
-    content: "";
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 50%;
-    height: 1px;
-    border-top: 2px solid #072256;
-  }
-
-  #mitchell-title-corner {
-    visibility: hidden;
-    color: #072256;
-    font-size: 26px;
-    letter-spacing: 2px;
-    font-weight: 700;
-  }
-
-  #artists-title-corner {
-    visibility: hidden;
-    color: #072256;
-    font-size: 13px;
-    letter-spacing: 3px;
-    text-align: end;
-    font-weight: 700;
-  }
-
   .mitchell-title {
     font-size: 30px;
     letter-spacing: 2px;
@@ -105,6 +141,40 @@ html {
     font-size: 15px;
     letter-spacing: 3px;
     margin-top: -7px;
+  }
+
+  #home-logo-container {
+    padding-bottom: 132px;
+  }
+
+  #left-corner::after {
+    height: 80px;
+    border-left: 2px solid #072256;
+  }
+
+  .logo-title-corner::after {
+    width: 90px;
+    border-top: 2px solid #072256;
+  }
+
+  #footer::after {
+    height: 80px;
+    border-right: 2px solid #072256;
+  }
+
+  #right-corner::after {
+    width: 90px;
+    border-bottom: 2px solid #072256;
+  }
+
+  #mitchell-title-corner {
+    font-size: 26px;
+    letter-spacing: 2px;
+  }
+
+  #artists-title-corner {
+    font-size: 13px;
+    letter-spacing: 3px;
   }
 
   #about-container {
@@ -123,7 +193,6 @@ html {
   }
 
   .about-body-container {
-    margin-left: 18px;
     padding-top: 36px;
     font-weight: 200;
   }
@@ -145,7 +214,6 @@ html {
 
   .contact-body-container {
     margin-top: 3px;
-    margin-left: 18px;
     padding-top: 36px;
     font-weight: 200;
   }
@@ -156,6 +224,7 @@ html {
 
   .contact-body {
     margin-bottom: 12px;
+    font-size: 18px;
   }
 
   #copyright-container {
@@ -164,41 +233,8 @@ html {
     color: #072256;
     position: absolute;
     bottom: 30px;
-    right: 117px;
-  }
-
-  #footer {
-    visibility: hidden;
-    position: absolute;
-    bottom: 24px;
-    right: 24px;
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  #footer::after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    height: 100%;
-    border-right: 2px solid #072256;
-  }
-
-  #right-corner {
-    visibility: hidden;
-    width: 182px;
-    height: 80px;
-  }
-
-  #right-corner::after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 50%;
-    height: 1px;
-    border-bottom: 2px solid #072256;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -212,6 +248,61 @@ html {
     font-size: 25px;
     letter-spacing: 3px;
     margin-top: -14px;
+  }
+
+  #left-corner::after {
+    height: 100px;
+    border-left: 2px solid #072256;
+  }
+
+  .logo-title-corner::after {
+    width: 120px;
+    border-top: 2px solid #072256;
+  }
+
+  #footer::after {
+    height: 100px;
+    border-right: 2px solid #072256;
+  }
+
+  #right-corner::after {
+    width: 120px;
+    border-bottom: 2px solid #072256;
+  }
+
+  #mitchell-title-corner {
+    font-size: 38px;
+    letter-spacing: 2px;
+  }
+
+  #artists-title-corner {
+    font-size: 19px;
+    letter-spacing: 3px;
+  }
+
+  #about-container {
+    display: none;
+    height: 60%;
+    text-align: center;
+    margin-top: 24px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #072256;
+    margin: 54px 36px 18px 36px;
+  }
+
+  .about-body {
+    margin-bottom: 18px;
+    font-size: 24px;
+  }
+
+  .about-body-container {
+    padding-top: 36px;
+    font-weight: 200;
+  }
+
+  .about-title {
+    font-size: 30px;
   }
 }
 
