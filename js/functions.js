@@ -14,6 +14,7 @@ function goHome(e) {
   artistsTitleMenu.style.visibility = "hidden";
   aboutContainer.style.display = "none";
   contactContainer.style.display = "none";
+  copyrightContainer.visibility = "hidden";
 }
 
 function displayLinkPage(e) {
@@ -29,7 +30,7 @@ function displayLinkPage(e) {
   menuOptions.style.display = "none";
   mitchellTitleMenu.style.visibility = "visible";
   artistsTitleMenu.style.visibility = "visible";
-
+  copyrightContainer.style.visibility = "visible";
   window.page === "about"
     ? (aboutContainer.style.display = "flex")
     : (contactContainer.style.display = "flex");
@@ -49,4 +50,5 @@ function displayLinks(e) {
   artistsTitleMenu.style.visibility = "hidden";
   aboutContainer.style.display = "none";
   contactContainer.style.display = "none";
+  copyrightContainer.style.visibility = "hidden";
 }

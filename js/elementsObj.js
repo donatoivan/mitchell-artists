@@ -18,5 +18,6 @@ function elementObj() {
     titleCorner: document.getElementById("title-corner"),
     aboutContainer: document.getElementById("about-container"),
     contactContainer: document.getElementById("contact-container"),
+    copyrightContainer: document.getElementById("copyright-container"),
   };
 }

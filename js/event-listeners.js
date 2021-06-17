@@ -17,6 +17,7 @@ const {
   titleCorner,
   aboutContainer,
   contactContainer,
+  copyrightContainer,
 } = elementObj();
 
 window.page = "home";
