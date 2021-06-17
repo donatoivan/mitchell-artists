@@ -14,7 +14,7 @@ function goHome(e) {
   artistsTitleMenu.style.visibility = "hidden";
   aboutContainer.style.display = "none";
   contactContainer.style.display = "none";
-  copyrightContainer.visibility = "hidden";
+  copyrightContainer.style.visibility = "hidden";
 }
 
 function displayLinkPage(e) {

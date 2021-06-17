@@ -45,6 +45,10 @@ html {
 }
 
 @media screen and (max-width: 700px) {
+  #home-logo-container {
+    padding-bottom: 132px;
+  }
+
   #left-corner {
     visibility: hidden;
     position: relative;
@@ -61,6 +65,10 @@ html {
     border-left: 2px solid #072256;
   }
 
+  .logo-title-corner {
+    padding: 16px 16px 0 20px;
+  }
+
   .logo-title-corner::after {
     content: "";
     position: absolute;
@@ -71,37 +79,21 @@ html {
     border-top: 2px solid #072256;
   }
 
-  #footer {
+  #mitchell-title-corner {
     visibility: hidden;
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0 24px 24px 0;
+    color: #072256;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 700;
   }
 
-  #footer::after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    height: 100%;
-    border-right: 2px solid #072256;
-  }
-
-  #right-corner {
+  #artists-title-corner {
     visibility: hidden;
-    width: 182px;
-    height: 80px;
-  }
-
-  #right-corner::after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 25%;
-    height: 1px;
-    border-bottom: 2px solid #072256;
+    color: #072256;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-align: end;
+    font-weight: 700;
   }
 
   .mitchell-title {
@@ -166,31 +158,6 @@ html {
     margin-bottom: 12px;
   }
 
-  #home-logo-container {
-    padding-bottom: 132px;
-  }
-
-  .logo-title-corner {
-    padding: 16px 16px 0 20px;
-  }
-
-  #mitchell-title-corner {
-    visibility: hidden;
-    color: #072256;
-    font-size: 26px;
-    letter-spacing: 2px;
-    font-weight: 700;
-  }
-
-  #artists-title-corner {
-    visibility: hidden;
-    color: #072256;
-    font-size: 13px;
-    letter-spacing: 3px;
-    text-align: end;
-    font-weight: 700;
-  }
-
   #copyright-container {
     visibility: hidden;
     font-size: 12px;
@@ -198,6 +165,39 @@ html {
     position: absolute;
     bottom: 30px;
     right: 117px;
+  }
+
+  #footer {
+    visibility: hidden;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 24px 24px 0;
+  }
+
+  #footer::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    border-right: 2px solid #072256;
+  }
+
+  #right-corner {
+    visibility: hidden;
+    width: 182px;
+    height: 80px;
+  }
+
+  #right-corner::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 25%;
+    height: 1px;
+    border-bottom: 2px solid #072256;
   }
 }
 
