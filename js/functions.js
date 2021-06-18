@@ -26,6 +26,7 @@ function displayLinkPage(e) {
   hamburgerBlue.style.display = "block";
   rightCorner.style.visibility = "visible";
   leftCorner.style.visibility = "visible";
+  titleCorner.style.display = "block";
   footer.style.visibility = "visible";
   menuOptions.style.display = "none";
   mitchellTitleMenu.style.visibility = "visible";
@@ -43,6 +44,7 @@ function displayLinks(e) {
   homeLogoContainer.style.display = "none";
   xIcon.style.display = "block";
   rightCorner.style.visibility = "visible";
+  titleCorner.style.display = "none";
   leftCorner.style.visibility = "visible";
   footer.style.visibility = "visible";
   menuOptions.style.display = "flex";
