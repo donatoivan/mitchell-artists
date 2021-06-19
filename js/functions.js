@@ -7,6 +7,7 @@ function goHome(e) {
   homeLogoContainer.style.display = "block";
   xIcon.style.display = "none";
   rightCorner.style.visibility = "hidden";
+  titleCorner.style.display = "none";
   leftCorner.style.visibility = "hidden";
   footer.style.visibility = "hidden";
   menuOptions.style.display = "none";

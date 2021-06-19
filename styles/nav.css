@@ -50,4 +50,8 @@
     height: 45px;
     width: 45px;
   }
+
+  .nav-link {
+    font-size: 48px;
+  }
 }

@@ -25,9 +25,9 @@ html {
   text-align: end;
 }
 
-#home-logo-container {
+/* #home-logo-container {
   padding-bottom: 66px;
-}
+} */
 
 #main-container {
   background-color: #072256;
@@ -50,6 +50,7 @@ html {
 
 #title-corner {
   text-decoration: none;
+  display: none;
 }
 
 #left-corner {
@@ -248,7 +249,7 @@ html {
   }
 
   #copyright-container {
-    font-size: 12px;
+    font-size: 9px;
   }
 }
 
@@ -300,7 +301,7 @@ html {
   }
 
   .about-body-container {
-    padding-top: 36px;
+    padding-top: 30px;
     font-weight: 200;
   }
 
@@ -335,7 +336,14 @@ html {
   }
 
   #copyright-container {
-    font-size: 16px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #about-container {
+    height: 65%;
+    margin: 54px 70px 18px 70px;
   }
 }
 
@@ -350,6 +358,84 @@ html {
     letter-spacing: 3px;
     margin-top: -28px;
   }
+
+  #home-logo-container {
+    padding-bottom: 0px;
+  }
+
+  #left-corner::after {
+    height: 120px;
+    border-left: 3px solid #072256;
+  }
+
+  .logo-title-corner::after {
+    width: 140px;
+    border-top: 3px solid #072256;
+  }
+
+  #footer::after {
+    height: 120px;
+    border-right: 3px solid #072256;
+  }
+
+  #right-corner::after {
+    width: 140px;
+    border-bottom: 3px solid #072256;
+  }
+
+  #mitchell-title-corner {
+    font-size: 48px;
+    letter-spacing: 2px;
+  }
+
+  #artists-title-corner {
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+
+  #about-container {
+    height: 65%;
+    margin: 42px 90px 18px 90px;
+  }
+
+  .about-body-container {
+    padding-top: 0px;
+    font-weight: 200;
+  }
+
+  .about-body {
+    margin-bottom: 24px;
+    font-size: 30px;
+  }
+
+  .about-title {
+    font-size: 42px;
+  }
+
+  #contact-container {
+    height: 65%;
+    margin-top: 24px;
+    margin: 126px 60px 18px 60px;
+  }
+
+  .contact-body-container {
+    margin-top: 3px;
+    padding-top: 54px;
+    font-weight: 200;
+  }
+
+  .contact-body {
+    margin-bottom: 12px;
+    font-size: 34px;
+  }
+
+  .contact-title {
+    font-size: 42px;
+  }
+
+  #copyright-container {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -362,5 +448,19 @@ html {
     font-size: 55px;
     letter-spacing: 3px;
     margin-top: -42px;
+  }
+
+  #home-logo-container {
+    padding-bottom: 0px;
+  }
+
+  #about-container {
+    height: 65%;
+    margin: 72px 300px 18px 300px;
+  }
+
+  .about-body {
+    margin-bottom: 24px;
+    font-size: 24px;
   }
 }
