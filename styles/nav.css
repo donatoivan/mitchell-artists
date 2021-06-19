@@ -27,32 +27,25 @@
   display: none;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   .icon {
     height: 20px;
     width: 20px;
   }
 }
 
-@media (max-width: 700px) {
+@media (min-width: 768px) {
   .icon {
     height: 25px;
     width: 25px;
   }
-}
-
-@media (min-width: 700px) {
-  .icon {
-    height: 30px;
-    width: 30px;
-  }
 
   .nav-link {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .icon {
     height: 45px;
     width: 45px;
@@ -61,4 +54,4 @@
   .nav-link {
     font-size: 48px;
   }
-}
+} */

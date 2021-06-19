@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 320px) {
   #menu-options-container {
     height: 40%;
     flex-direction: column;
@@ -12,17 +12,13 @@
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   #menu-options-container {
     height: 50%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 52px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   #menu-options-container {
     height: 55%;
     flex-direction: column;
@@ -30,4 +26,4 @@
     justify-content: space-evenly;
     margin-top: 52px;
   }
-}
+} */

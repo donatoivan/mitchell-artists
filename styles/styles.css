@@ -179,7 +179,7 @@ html {
 
   #about-container {
     height: 60%;
-    margin: 54px 36px 18px 36px;
+    margin: 0px 36px 18px 36px;
   }
 
   .about-body-container {
@@ -204,7 +204,7 @@ html {
 
   #contact-container {
     height: 60%;
-    margin: 54px 36px 18px 36px;
+    margin: 0px 36px 18px 36px;
   }
 
   .contact-body-container {
@@ -220,6 +220,93 @@ html {
     font-size: 9px;
   }
 }
+
+/* @media screen and (min-width: 768px) {
+  .mitchell-title {
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+
+  .artists-title {
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: -14px;
+  }
+
+  #left-corner::after {
+    height: 80px;
+    border-left: 2px solid #072256;
+  }
+
+  .logo-title-corner::after {
+    width: 100px;
+    border-top: 2px solid #072256;
+  }
+
+  #footer::after {
+    height: 80px;
+    border-right: 2px solid #072256;
+  }
+
+  #right-corner::after {
+    width: 100px;
+    border-bottom: 2px solid #072256;
+  }
+
+  #mitchell-title-corner {
+    font-size: 26px;
+    letter-spacing: 2px;
+  }
+
+  #artists-title-corner {
+    font-size: 13px;
+    letter-spacing: 3px;
+  } */
+
+/*#about-container {
+    height: 65%;
+    margin: 54px 60px 18px 60px;
+  }
+
+  .about-body-container {
+    padding-top: 30px;
+    font-weight: 100;
+  }
+
+  .about-body {
+    margin-bottom: 18px;
+    font-size: 24px;
+  }
+
+  .about-title {
+    font-size: 30px;
+  }
+
+  #contact-container {
+    height: 65%;
+    margin-top: 24px;
+    margin: 72px 60px 18px 60px;
+  }
+
+  .contact-body-container {
+    margin-top: 3px;
+    padding-top: 54px;
+    font-weight: 100;
+  }
+
+  .contact-body {
+    margin-bottom: 12px;
+    font-size: 24px;
+  }
+
+  .contact-title {
+    font-size: 30px;
+  }
+
+  #copyright-container {
+    font-size: 12px;
+  } */
+/* } */
 
 /* @media screen and (min-width: 321px) {
   .mitchell-title {

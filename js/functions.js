@@ -21,7 +21,7 @@ function goHome(e) {
 function displayLinkPage(e) {
   e.preventDefault();
   mainContainer.style.backgroundColor = "white";
-  contentContainer.style.justifyContent = "flex-start";
+  contentContainer.style.justifyContent = "center";
   contentContainer.style.alignItems = "normal";
   xIcon.style.display = "none";
   hamburgerBlue.style.display = "block";
