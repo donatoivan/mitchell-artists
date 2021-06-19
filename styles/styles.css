@@ -312,7 +312,7 @@ html {
   .artists-title {
     font-size: 35px;
     letter-spacing: 3px;
-    margin-top: -28px;
+    margin-top: -20px;
   }
 
   #about-container {
@@ -346,29 +346,23 @@ html {
   }
 }
 
-/* @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .mitchell-title {
-    font-size: 130px;
+    font-size: 90px;
     letter-spacing: 10px;
   }
 
   .artists-title {
-    font-size: 55px;
+    font-size: 45px;
     letter-spacing: 3px;
-    margin-top: -42px;
-  }
-
-  #home-logo-container {
-    padding-bottom: 0px;
+    margin-top: -30px;
   }
 
   #about-container {
-    height: 65%;
-    margin: 72px 300px 18px 300px;
+    margin: 0px 200px 18px 200px;
   }
 
-  .about-body {
-    margin-bottom: 24px;
-    font-size: 24px;
+  #contact-container {
+    margin: 0px 200px 18px 200px;
   }
-} */
+}
