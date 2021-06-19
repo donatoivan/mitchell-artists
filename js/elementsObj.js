@@ -19,5 +19,6 @@ function elementObj() {
     aboutContainer: document.getElementById("about-container"),
     contactContainer: document.getElementById("contact-container"),
     copyrightContainer: document.getElementById("copyright-container"),
+    contactTextLink: document.getElementById("contact-text-link"),
   };
 }

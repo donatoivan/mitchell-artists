@@ -45,13 +45,20 @@
   }
 }
 
-/* @media (min-width: 1024px) {
+@media (min-width: 1024px) {
   .icon {
-    height: 45px;
-    width: 45px;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .icon {
+    height: 36px;
+    width: 36px;
   }
 
   .nav-link {
-    font-size: 48px;
+    font-size: 42px;
   }
-} */
+}

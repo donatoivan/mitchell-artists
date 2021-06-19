@@ -18,6 +18,7 @@ const {
   aboutContainer,
   contactContainer,
   copyrightContainer,
+  contactTextLink,
 } = elementObj();
 
 window.page = "home";
@@ -56,4 +57,10 @@ titleCorner.addEventListener("click", (e) => {
   hamburgerBlue.style.display = "none";
   window.page = "home";
   goHome(e);
+});
+
+contactTextLink.addEventListener("click", (e) => {
+  window.page = "contact";
+  aboutContainer.style.display = "none";
+  displayLinkPage(e);
 });
