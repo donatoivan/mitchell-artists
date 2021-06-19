@@ -303,98 +303,50 @@ html {
   }
 }
 
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .mitchell-title {
-    font-size: 80px;
+    font-size: 70px;
     letter-spacing: 2px;
   }
 
   .artists-title {
-    font-size: 40px;
+    font-size: 35px;
     letter-spacing: 3px;
     margin-top: -28px;
   }
 
-  #home-logo-container {
-    padding-bottom: 0px;
-  }
-
-  #left-corner::after {
-    height: 120px;
-    border-left: 3px solid #072256;
-  }
-
-  .logo-title-corner::after {
-    width: 140px;
-    border-top: 3px solid #072256;
-  }
-
-  #footer::after {
-    height: 120px;
-    border-right: 3px solid #072256;
-  }
-
-  #right-corner::after {
-    width: 140px;
-    border-bottom: 3px solid #072256;
-  }
-
-  #mitchell-title-corner {
-    font-size: 48px;
-    letter-spacing: 2px;
-  }
-
-  #artists-title-corner {
-    font-size: 24px;
-    letter-spacing: 3px;
-  }
-
   #about-container {
-    height: 65%;
-    margin: 42px 90px 18px 90px;
+    margin: 54px 130px 18px 130px;
   }
 
-  .about-body-container {
-    padding-top: 0px;
-    font-weight: 100;
+  .about-title {
+    font-size: 30px;
   }
 
   .about-body {
     margin-bottom: 24px;
-    font-size: 30px;
-  }
-
-  .about-title {
-    font-size: 42px;
+    font-size: 18px;
   }
 
   #contact-container {
-    height: 65%;
-    margin-top: 24px;
-    margin: 126px 60px 18px 60px;
-  }
-
-  .contact-body-container {
-    margin-top: 3px;
-    padding-top: 54px;
-    font-weight: 100;
+    margin: 54px 130px 18px 130px;
   }
 
   .contact-body {
     margin-bottom: 12px;
-    font-size: 34px;
+    font-size: 24px;
   }
 
   .contact-title {
-    font-size: 42px;
+    font-size: 30px;
   }
 
   #copyright-container {
-    font-size: 14px;
+    font-size: 9px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .mitchell-title {
     font-size: 130px;
     letter-spacing: 10px;
